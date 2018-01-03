@@ -20,6 +20,8 @@ docker run -d -e EXTERNAL_URL=http://$(hostname):8080 -p 8080:80 ave2/ave-demo
 
 The application will be available on http://&lt;hostname&gt;:8080
 
+The hostname should be resolvable by the web browser and the Docker container, if not use the ip-adress.
+
 ## Build
 
 ```bash
