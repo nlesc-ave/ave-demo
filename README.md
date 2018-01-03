@@ -4,6 +4,8 @@
 
 The Allelic Variation Explorer web application visualizes clusters of genomic variants.
 
+![Screenshot of Allelic Variation Explorer](https://github.com/nlesc-ave/ave-rest-service/raw/master/docs/screenshot.png)
+
 This is a Docker image of [Allelic Variant Explorer](https://github.com/nlesc-ave/ave-rest-service) application with a sample dataset.
 
 ## Dataset
