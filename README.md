@@ -11,6 +11,7 @@ This is a Docker image of [Allelic Variant Explorer](https://github.com/nlesc-av
 ## Dataset
 
 The files in the `data/` directory contains data for the first 100000 basepairs of chromosome 6 of the Tomato genome.
+The construction of the dataset is described at https://github.com/nlesc-ave/ave-demo/blob/master/data/README.md .
 
 ## Run
 
