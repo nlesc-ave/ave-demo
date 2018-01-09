@@ -1,10 +1,17 @@
 # Allelic Variant Explorer demo
 
-Docker image of Allelic Variant Explorer application with a sample dataset
+[![Docker Automated build](https://img.shields.io/docker/automated/ave2/ave-demo.svg)](https://hub.docker.com/r/ave2/ave-demo/)
+
+The Allelic Variation Explorer web application visualizes clusters of genomic variants.
+
+![Screenshot of Allelic Variation Explorer](https://github.com/nlesc-ave/ave-rest-service/raw/master/docs/screenshot.png)
+
+This is a Docker image of [Allelic Variant Explorer](https://github.com/nlesc-ave/ave-rest-service) application with a sample dataset.
 
 ## Dataset
 
-The files in the `data/` directory contains data for the first 100000 basepairs of chromosome 6 of the tomato genome.
+The files in the `data/` directory contains data for the first 100000 basepairs of chromosome 6 of the Tomato genome.
+The construction of the dataset is described at https://github.com/nlesc-ave/ave-demo/blob/master/data/README.md .
 
 ## Run
 
