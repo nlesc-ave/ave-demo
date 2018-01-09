@@ -9,7 +9,7 @@ The files in the `data/` directory contains data for the first 100000 basepairs 
 ## Run
 
 ```bash
-docker run -d -v EXTERNAL_URL=http://$(hostname):8080 -p 8080:80 ave2/ave-demo
+docker run -d -p 8080:80 ave2/ave-demo
 ```
 
 The application will be available on http://&lt;hostname&gt;:8080
