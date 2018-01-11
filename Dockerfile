@@ -11,22 +11,22 @@ RUN service nginx start && \
     # For some reason /meta dir empty after build, so set db to default loc ./ave.db
     echo "WHOOSH_BASE_DIR='/whoosh'" > settings.cfg && \
     avedata register \
-    --species ${SPECIES} \
+    --species '${SPECIES}' \
     --genome ${GENOME_BUILD} \
     --datatype 2bit \
     /data/S_lycopersicum_chromosomes.2.40.chr6-0-100000.2bit && \
     avedata register \
-    --species ${SPECIES} \
+    --species '${SPECIES}' \
     --genome ${GENOME_BUILD} \
     --datatype variants \
     /data/tomato_snps.chr6-0-100000.bcf && \
     avedata register \
-    --species ${SPECIES} \
+    --species '${SPECIES}' \
     --genome ${GENOME_BUILD} \
     --datatype genes \
     /data/S_lycopersicum_May_2012.chr6-0-100000.bb && \
     avedata register \
-    --species ${SPECIES} \
+    --species '${SPECIES}' \
     --genome ${GENOME_BUILD} \
     --datatype features \
     /data/A-AFFY-87.bb && \
